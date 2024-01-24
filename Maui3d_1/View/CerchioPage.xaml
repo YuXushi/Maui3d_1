@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Maui3d_1.View.CerchioPage"
+             Title="Cerchio">
+    <VerticalStackLayout>
+        
+        <Label 
+            Text="Inserisci il raggio del cerchio"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center"
+            />
+        <Entry
+            x:Name="txtRaggio"
+            HorizontalOptions="Center"
+            Keyboard="Numeric"
+            />
+        <Button
+            Text="Calcola Area Cerchio"
+            Clicked="CalcolaAreaCerchio"
+            HorizontalOptions="Center"
+            />
+
+    </VerticalStackLayout>
+</ContentPage>
